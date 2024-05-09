@@ -1,0 +1,120 @@
+
+  /*:::::::::::::GRILLA::::::::::::::*/
+
+  .ds-contenedor{
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ds-contenedor-fluid{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ds-row{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.ds-col-1{
+    width: 7.5%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-2{
+    width: 17%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-3{
+    width: 23%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-4{
+    width: 31%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-5{
+    width: 41%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-6{
+    width: 48%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-7{
+    width: 58%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-8{
+    width: 67%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-9{
+    width: 73%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-10{
+    width: 80%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-11{
+    width: 93%;
+    height: auto;
+    margin: 0 1%;
+}
+
+.ds-col-12{
+    width: 98%;
+    height: auto;
+    margin: 0 1%;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .ds-row{
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s;
+    }
+
+    .ds-col-1,
+    .ds-col-2,
+    .ds-col-3,
+    .ds-col-4,
+    .ds-col-5,
+    .ds-col-6,
+    .ds-col-7,
+    .ds-col-8,
+    .ds-col-9,
+    .ds-col-10,
+    .ds-col-11,
+    .ds-col-12{
+        width: 94%;
+        height: auto;
+        margin: 0 1% 4% 1%;
+        transition: .5s;
+    }
+}
